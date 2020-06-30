@@ -1,0 +1,15 @@
+通过在线websocket客户端 http://www.bejson.com/httputil/websocket/
+发送请求       ws://localhost:8080/websocket/v2/{userId}
+ 样例 ：         ws://localhost:8080/websocket/v2/001  获取链接  发送消息测试。
+ 可以启动多个客户端。
+ 通过postman 可以 测试服务端发送消息给指定客户端，同时可以群发消息。
+ 
+ 群发消息：localhost:8080/api/v2/sendMsgToAllClient?text=helloareyouokddddddddddddddddd
+ 给客户端001发送消息： localhost:8080/api/v2/sendMsgToClientById?id=001&text=helloareyouok
+ 
+ 
+ 
+ 参考链接：
+ https://blog.csdn.net/qianlixiaomage/article/details/106738140
+ https://blog.csdn.net/magic_1024/article/details/102996263
+ https://blog.csdn.net/wwx692371700/article/details/106442026
