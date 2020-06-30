@@ -8,6 +8,14 @@
  给客户端001发送消息： localhost:8080/api/v2/sendMsgToClientById?id=001&text=helloareyouok
  
  
+ 主要涉及几个类
+ MyController
+ WebSocket2
+ WebSocketConfig
+ WebSocketApplication
+ 
+ 
+ 
  
  参考链接：
  https://blog.csdn.net/qianlixiaomage/article/details/106738140
